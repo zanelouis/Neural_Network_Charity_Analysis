@@ -47,4 +47,4 @@ In an attempt to optimize the model even more one more hidden layer was added wi
 ![image](https://user-images.githubusercontent.com/71358697/108940966-168c2a80-7609-11eb-96cb-d34f95ab35ef.png)
 ![image](https://user-images.githubusercontent.com/71358697/108940968-19871b00-7609-11eb-9954-eb2eb1aa82ec.png)
 
-When using tanh or relu as the output the accuracy dropped dramatically. I was unable to get the accuracy greater than 75% and believe that in order to achieve that goal we would need more targets of data variables.
+I noticed that when using tanh or relu as the activation function for the output layer the accuracy dropped dramatically. Also, that increasing the epoch to 100 did not significantly improve accuracy. Moreover, I was unable to get the accuracy greater than 75% and believe that in order to achieve that goal we would need more targets of variables in the dataset.
